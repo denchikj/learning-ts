@@ -2,6 +2,15 @@
   "dependencies": {
     "@devexperts/remote-data-ts": "^2.1.1",
     "bluebird": "^3.7.2",
-    "fp-ts": "^2.16.1"
-  }
+    "fp-ts": "^2.16.1",
+    "jest": "^29.6.4"
+  },
+  "scripts": {
+    "ep1": "ts-node ./learning-ts/monadic/1/these.ts",
+    "ep2": "ts-node ./learning-ts/monadic/2/rings.ts",
+    "ep3": "ts-node ./learning-ts/monadic/3/histo.ts",
+    "ep4": "ts-node ./learning-ts/monadic/4/remote-data.ts",
+    "ep5": "ts-node ./learning-ts/monadic/5/run.ts",
+    "ep5:test": "jest ./learning-ts/monadic/5/tagless.test.ts",
+  },
 }
